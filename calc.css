@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right,rgb(8, 14, 13),rgb(206, 219, 219));
+}
+.container{
+    background-color: rgb(190, 190, 190);
+    width: 350px;
+    height: 450px;
+    border-radius: 8px;
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+button{
+   height: 60px;
+   width: 70px;
+   border-radius: 5px;
+   margin: 5px;
+   background-color: black;
+   color: white;
+   font-size: 1.25em;
+}
+input{
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 0 10px;
+    width: 230px;
+    height: 60px;
+    border: black;
+    margin-right: 5px;
+    font-size: 2em;
+    font-family: monospace;
+    font-weight: bold;
+    outline: none;
+}
+
+#plus,#min,#div,#mul,#equal{
+    font-size: 2em;
+    background-color: darkgrey;
+    color: black;
+    border: darkgrey;
+}
+#del,#ac{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: underline;
+    margin-top:10px
+}
+#plus:hover,#min:hover,#div:hover,#mul:hover,#equal:hover{
+    background-color:black;
+    color:darkgrey;
+}
+button:hover{
+    background-color: darkgrey;
+    color:black;
+}
