@@ -1,64 +1,45 @@
 function One(value){
-    let EnteredValue = value ;
-    let InputValue = document.getElementById('calc-input').value ;
-    document.getElementById('calc-input').value = InputValue + EnteredValue;
+    document.getElementById('calc-input').value += value;
 }
 
 function Two(value){
-    let EnteredValue = value ;
-    let InputValue = document.getElementById('calc-input').value ;
-    document.getElementById('calc-input').value = InputValue + EnteredValue;
+    document.getElementById('calc-input').value += value;
 }
 
 function Three(value){
-    let EnteredValue = value ;
-    let InputValue = document.getElementById('calc-input').value ;
-    document.getElementById('calc-input').value = InputValue + EnteredValue;
+    document.getElementById('calc-input').value += value;
 }
 
 function Four(value){
-    let EnteredValue = value ;
-    let InputValue = document.getElementById('calc-input').value ;
-    document.getElementById('calc-input').value = InputValue + EnteredValue;
+    document.getElementById('calc-input').value += value;
 }
 
 function Five(value){
-    let EnteredValue = value ;
-    let InputValue = document.getElementById('calc-input').value ;
-    document.getElementById('calc-input').value = InputValue + EnteredValue;
+    document.getElementById('calc-input').value += value;
 }
 
 function Six(value){
-    let EnteredValue = value ;
-    let InputValue = document.getElementById('calc-input').value ;
-    document.getElementById('calc-input').value = InputValue + EnteredValue;
+    document.getElementById('calc-input').value += value;
 }
 
 function Seven(value){
-    let EnteredValue = value ;
-    let InputValue = document.getElementById('calc-input').value ;
-    document.getElementById('calc-input').value = InputValue + EnteredValue;
+    document.getElementById('calc-input').value += value;
 }
 
 function Eight(value){
-    let EnteredValue = value ;
-    let InputValue = document.getElementById('calc-input').value ;
-    document.getElementById('calc-input').value = InputValue + EnteredValue;
+    document.getElementById('calc-input').value += value;
 }
 
 function Nine(value){
-    let EnteredValue = value ;
-    let InputValue = document.getElementById('calc-input').value ;
-    document.getElementById('calc-input').value = InputValue + EnteredValue;
+    document.getElementById('calc-input').value += value;
 }
 
 function Zero(value){
-    let InputValue = document.getElementById('calc-input').value ;
-    
+    InputValue = document.getElementById('calc-input').value;
     if(InputValue == ''){
         return;
     }else{
-        document.getElementById('calc-input').value = InputValue + value ;
+        document.getElementById('calc-input').value += value;
     }
 }
 
@@ -80,7 +61,7 @@ function Min(value){
     let LastElement = InputValue.slice(-1);
     if (LastElement == ''){
         return;
-    }else if((LastElement == value) || (LastElement =="-")||(LastElement == "*") ||(LastElement == "/")){
+    }else if((LastElement == value) || (LastElement =="+")||(LastElement == "*") ||(LastElement == "/")){
         return;
     }else{
         document.getElementById('calc-input').value += value ;
